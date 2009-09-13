@@ -1,0 +1,13 @@
+2005-11-01 Upgrade to FUSE 2.3 (shipped with Kernel 2.6.14)
+           Removed getdir
+           New readdir,opendir,releasedir,fsyncdir
+           Changed read,write,flush,release,fsync
+2005-03-21 context bug (multiple free of a context) found
+	   acl's work now ,too!
+2005-03-14 implemented context
+	   alpha release on rubyforge.org
+2005-03-11 xattr callbacks
+	   no warnings at rb_protect
+
+2005-03-09 Exception handling
+2005-03-08 release 0.1 (no CVS)
